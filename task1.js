@@ -1,3 +1,3 @@
-function solution(str) {
-    return (str.split('').reverse().join(''));
-  }
+function isDivideBy(number, a, b) {
+  return ((number % a === 0 && number % b === 0) ? true : false);
+}
